@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Coach by Korinne</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+        const password = "lifecoach20";
+        const input = prompt("Enter the password:");
+        if (input === password) {
+        } else if(input == null){
+            window.location.href = "index.html";
+        }else {
+            alert("Incorrect password, try again");
+            window.location.href = "schedule.html";
+        }
+    </script>
+    <div class = "mainbttn"><a href = "index.html" id = "jump1">Skip to Main Content</a></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="onboard.html">Onboarding Form and Information</a></li>
+            <li><a class= "current" href="schedule.html">Current: Client Scheduling</a></li>
+            <li><a href="faq.html">FAQ's</a></li>
+        </ul>
+    </nav>
+    <div class = "calendar">
+        <iframe src="https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUpXQ1hvZ1EwV3gtfGRlZmF1bHR8ZTdkODBmMzRjM2I5MjY2M2M1MzJlZGFjMTExYTk4MDc" style="border: 0" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>

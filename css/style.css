@@ -1,0 +1,310 @@
+.mainbttn a{
+    background-color: rgb(190, 200, 201);
+    padding: 6px;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}   
+
+.mainbttn a:focus{
+    top: 5px;
+    margin: 20px;
+    background:#f1d74c;
+    text-decoration : underline;
+    border: solid black 2px;
+}
+body{
+    background-color: rgb(93, 152, 93);
+}
+
+nav{
+    background-color: rgb(93, 152, 93);
+    padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5vw;
+}
+nav li{
+    padding: 5px;
+    background-color: antiquewhite;
+    display:inline;
+    border: 2px solid black;
+}
+
+.bio{
+    background-image: url(/images/moss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display:grid;
+    grid-template-columns:5% flex 3px flex 5%;
+    grid-template-rows: 500px;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.leftpartition{
+    border: 3px solid black;
+    grid-column: 2/3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    background-color: antiquewhite;
+}
+.leftpartition img{
+    width: 90%;
+    margin: 15px;
+}
+.info{
+    width: 90%;
+}
+.rightpartition{
+    border: 3px solid black;
+    grid-column: 4/5;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+    overflow: scroll;
+}
+.divider{
+    width: 5px;
+    background-color: black;
+    align-self: stretch; /* This makes the divider stretch to match the height of the tallest sibling */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    padding: 10px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    padding: 10px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    text-align: left;
+
+}
+h4{
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+h5{
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    text-align: left;
+}
+.footer{
+    background-color: rgb(93, 152, 93);
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer li{
+    font-size: 12px;
+    margin: 20px;
+    padding: 10px;
+    background-color: antiquewhite;
+    display:inline;
+    border: 2px solid black;
+}
+footer ul{
+    justify-content: center;
+    text-align: center;
+}
+.infotitle{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    margin: 10px;
+}
+.onboardinggrid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+
+}
+
+.onboardingfaqlabel{
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: left;
+    grid-column: 0/1;
+    background-color: antiquewhite; 
+    margin-left: 20px;  
+    padding: 10px;
+}
+
+.faqquestionandanswers{
+}
+
+.faqquestions{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.faqanswers{
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.onboardingform{
+    border: 3px solid black;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info{
+    font-size: 30px;
+    margin: 0px;
+}
+.form{
+    font-size: 20px;
+    color:blue;
+    text-decoration: underline;
+}
+
+.Label{
+    text-decoration: underline;
+}
+
+
+
+.timeline{
+    padding: 10px;
+    border: 3px solid black;
+    margin-right: 20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 15% 3px 85%;
+    grid-template-rows: auto auto auto auto;
+    background-color: antiquewhite;
+}
+.timelinedivider{
+    grid-column: 2;
+    grid-row: 1/5;
+    width: 5px;
+    background-color: black;
+    align-self: stretch; /* This makes the divider stretch to match the height of the tallest sibling */
+    display:grid;
+    grid-template-rows: flex flex flex flex flex;
+}
+.labeltimeline{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    grid-column: 3/4;
+}
+.onboardtimeline{
+    margin-left: 20px;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2;
+}
+.formstimeline{
+    margin-left: 20px;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 3;
+}
+.scheduletimeline{
+    margin-left: 20px;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 4;
+}
+.icon1 {
+    grid-row: 2;
+    width: 20px;
+    height: 5px;
+    font-size: 2px;
+    background: black;
+  }
+  .icon2 {
+    grid-row: 3;
+    width: 20px;
+    height: 5px;
+    font-size: 2px;
+    background: black;
+  }
+  .icon3 {
+    grid-row: 4;
+    width: 20px;
+    height: 5px;
+    font-size: 2px;
+    background: black;
+  }
+  .faq{
+    border: 5px solid black;
+    margin: 10px;
+  }
+
+  iframe{
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 600px;
+  }
+  .calendar{
+    background-color: antiquewhite;
+    margin: 20px;
+  }
+
+  .current{
+    color: black;
+    background:#4cbaf1;
+    border-style: solid;
+    padding: 10px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.nav1 a{
+    font-size: 2.5vw;
+}
+nav ul li a:hover, nav ul li a:focus{
+    text-decoration : underline;
+    border: solid black 2px;
+    background:#f1d74c;
+}
+.nav1 a:focus, .nav1 a:hover{
+    text-decoration : underline;
+    border: solid black 2px;
+    background:#f1d74c;
+}
+.form a:focus, .form a:hover{
+    text-decoration : underline;
+    border: solid black 2px;
+    background:#f1d74c;
+}
+@media (min-width: 800px){
+    h2{
+        padding: 10px;
+        font-size: 60px;
+        background-color: antiquewhite;
+        justify-content: center;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h4{
+        padding: 10px;
+        font-size: 15px;
+        background-color: antiquewhite;
+        text-align: center;
+    }
+}
