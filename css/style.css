@@ -33,7 +33,7 @@ nav li{
 }
 
 .bio{
-    background-image: url(/images/moss.jpg);
+    background-image: url(../images/moss.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
