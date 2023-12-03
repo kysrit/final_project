@@ -55,6 +55,7 @@ nav li{
 .leftpartition img{
     width: 80%;
     margin: 15px;
+    overflow: hidden;
 }
 .info{
     width: 90%;
