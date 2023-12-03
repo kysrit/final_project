@@ -33,7 +33,7 @@ nav li{
 }
 
 .bio{
-    background-image: url("/images/moss.jpg");
+    background-image: url(../images/moss.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -277,7 +277,7 @@ p{
 .nav1 li{
     font-size: 2.5vw;
     margin: 10px;
-    padding: 10px;
+    padding: 1px;
 }
 nav ul li a:hover, nav ul li a:focus{
     text-decoration : underline;
